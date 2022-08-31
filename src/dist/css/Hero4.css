@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap";
+}
+@font-face {
+  font-family: "Open Sans";
+  src: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap";
+}
+.hero4 {
+  height: 100vh;
+  background-color: #FBF5FE;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+.hero4__pricing-table {
+  margin-top: 150px;
+}
+.hero4__h-price {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  margin-bottom: 19px;
+  color: #091928;
+}
+.hero4__price-text {
+  line-height: 0.7cm;
+  color: #9c9c9c;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.hero4__price-button {
+  padding: 10px 20px;
+  margin-left: 100px;
+  border: none;
+  background-color: #9778FF;
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "Poppins", sans-serif;
+}
+.hero4__price-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #9778FF;
+  background-color: #fff;
+  border: 1px solid #9778FF;
+  font-family: "Poppins", sans-serif;
+}
+.hero4 .card {
+  background-color: #fff;
+}
+.hero4__price-slider {
+  display: flex;
+  gap: 1rem;
+  padding: 0 10px;
+  overflow: hidden;
+  height: 70vh;
+}
+.hero4__p-price {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #9778FF;
+  font-size: 12px;
+  font-weight: 550;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.hero4__h2-price {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #091928;
+  font-weight: 600;
+  font-size: 28px;
+}
+.hero4__price-text {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Poppins", sans-serif;
+  color: #9c9c9c;
+  font-size: 17px;
+}
+.hero4 .card-body {
+  margin-top: 30px;
+}/*# sourceMappingURL=Hero4.css.map */

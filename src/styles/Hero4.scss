@@ -1,0 +1,87 @@
+@import './reset';
+@import './variables';
+
+@font-face {
+    font-family: 'Open Sans';
+    src: ('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+}
+.hero4 {
+    height: 100vh;
+    background-color: #FBF5FE;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    
+    &__pricing-table {
+        margin-top: 150px;
+    }
+    &__h-price{
+        font-family: 'Poppins', sans-serif;
+       font-size: 55px; 
+       margin-bottom: 19px; 
+       color: $regular-color-two;
+        }
+        &__price-text{
+        line-height: 0.7cm;
+        color: $primary-color;
+        margin-bottom: 25px;
+        font-size: 20px;
+        }
+        &__price-button{
+            padding: 10px 20px;
+            margin-left: 100px;
+            border: none;
+            background-color: #9778FF;
+            color: #ffff;
+            border-radius: 30px;
+            font-size: 15px;
+            transition: .4s;
+            font-family: 'Poppins', sans-serif;
+            &:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            color: #9778FF;
+            background-color: #fff;
+            border: 1px solid #9778FF;
+            font-family: 'Poppins', sans-serif;
+            }
+            }
+        .card {
+            background-color: #fff;
+        }
+        &__price-slider{
+            display: flex;
+            gap: 1rem;
+            padding: 0 10px;
+            overflow: hidden;
+            height: 70vh;
+            
+            }
+            &__p-price{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                color: #9778FF;
+                font-size: 12px;
+                font-weight: 550;
+                margin-top: 35px;
+                margin-bottom: 25px;
+                }
+                &__h2-price {
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                color: #091928;
+                font-weight: 600;
+                font-size: 28px;
+                }
+                &__price-text {
+                text-align: center;
+                margin-bottom: 25px;
+                font-family: $poppins;
+                color: $primary-color;
+                font-size: 17px;
+                }
+                .card-body {
+                    margin-top: 30px;
+                }
+                
+}

@@ -1,0 +1,72 @@
+@import './reset';
+@import './variables';
+.hero2 {
+    background-color: #FBF5FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    height: 100vh;
+    
+    &__gram {
+    font-family: 'Poppins', sans-serif;
+   font-size: 55px; 
+   margin-bottom: 19px; 
+   color: #091928;
+    }
+    &__gram-text {
+    line-height: 0.7cm;
+    color: $primary-color;
+    margin-bottom: 25px;
+    font-size: 17px;
+    }
+    &__gram-button {
+    padding: 10px 20px;
+    margin-left: 12px;
+    border: none;
+    background-color: #9778FF;
+    color: #ffff;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: .4s;
+
+    &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #ffff;
+    background-color: #C194C1;
+    }
+    }
+    &__gram-slider {
+        display: flex;
+        // height: 70vh;
+        padding: 0 10px;
+        gap: 1rem; 
+    }
+    .card {
+        background-color: #ffff;
+        height: 70vh;
+        border: none;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.17);
+    }
+    &__img-slide {
+     max-width: 200px;
+    height: auto;
+    margin: 55px 35px;
+    justify-content: center;
+    align-items: center;
+    }
+    &__card-body{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 15px;
+    }
+    &__card-title {
+    font-weight: map-get($font-weights, bold );
+    color: $regular-color-two;
+    }
+    &__card-text{
+        font-family: 'Poppins', sans-serif;
+        color: $primary-color;
+    }
+}

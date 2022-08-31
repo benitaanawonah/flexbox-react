@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.navbar__h2 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  color: #9c9c9c;
+}
+.navbar__span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(13, 1, 1);
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: #9c9c9c;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar a:hover {
+  color: #9c9c9c;
+  transition: 0.3s;
+}
+.navbar a::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background: #C194C1;
+  transition: all 0.5s;
+  display: block;
+  color: #9c9c9c;
+}/*# sourceMappingURL=Navbar.css.map */

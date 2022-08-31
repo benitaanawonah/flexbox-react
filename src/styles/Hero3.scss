@@ -1,0 +1,39 @@
+@import './reset';
+@import './variables';
+.hero3 {
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+
+    &__h-paid{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    color: $regular-color-one;
+    font-size: 45px;
+    font-weight: map-get($font-weights, bold );
+    }
+    &__p-paid {
+    line-height: 1.5;
+    color: $primary-color;
+    font-family: 'Poppins', sans-serif;
+    }
+    &__b-paid{
+    padding: 10px 20px;
+    border: none;
+    margin-top: 40px;
+    font-family: 'Open sans', sans-serif;
+    background-color: #0F2B47;
+    color: #ffff;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: .4s;
+
+    &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #0F2B47;
+    background-color: #ffff;
+    border: 1px solid #0F2B47;
+    }
+    }
+}

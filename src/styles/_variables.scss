@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: ('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+}
+$open-sans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+$primary-color: #9c9c9c;
+$mild-color: rgb(13, 1, 1);
+$mild-color-2: #fff;
+$hover-one: #C194C1;
+$regular-color-one: #0F2B47;
+$regular-color-two: #091928;
+$button: #9778FF;
+$mild-white: #FBF5FE;
+
+$font-weights: (
+    "regular": 500,
+    "bold": 600,
+    "super-bold": 700
+);

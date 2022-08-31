@@ -1,0 +1,14 @@
+@import './reset';
+@import './variables';
+.containe {
+    height: 100vh;
+    background-color: #FBF5FE;
+    text-align: center;  
+       
+    &__center-img {
+     max-width: 750px;
+    height: auto; 
+    margin-top: -350px;
+    
+    }
+}

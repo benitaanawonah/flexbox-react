@@ -1,0 +1,65 @@
+@import './reset';
+@import './variables';
+.foot {
+    height: 70vh;
+    background-color: $regular-color-two;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: $mild-color-2;
+
+    &__bank{
+    font-size: 30px;
+    color: $primary-color;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    span {
+    color: $mild-color-2;
+    font-weight: map-get($font-weights, super-bold);
+    }
+    }
+    &__bank-1 {
+    color: $mild-white;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    }
+    &__bank-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: $button;
+    color: $mild-color-2;
+    border-radius: 30px;
+    font-size: 12px;
+    transition: .4s;
+    font-family: 'Poppins', sans-serif;
+    }
+    &__copyright {
+        margin-top: 120px;
+        font-family: 'Poppins', sans-serif;
+        color: $primary-color;
+    }
+    &__products {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    &__bank-list{
+        line-height: 2.5;
+        // text-align: center;
+
+    }
+    &__latest-post{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+    &__content-top {
+    display: flex;
+    gap: 1rem;
+    }
+    &__content-top-img {
+        max-width: 55px;
+    }
+
+    }
